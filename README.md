@@ -1,6 +1,7 @@
-# lei_aut
-# Projeto para criação de experimento de leitura automonitorada com ibex farm;
+# lei_aut (de Leitura Automonitorada):
+# Projeto para criação de experimento de leitura automonitorada com ibex farm <https://spellout.net/ibexfarm/>, parte do estudo desenvolvido para minha tese de doutorado (LAPAL/PUC-Rio);
+
 # Contém:
-# 1. códigos em javascript para rodar os itens experimentais;
-# 2. códigos em html para apresentação do tcle (termo de consentimento livre e esclarecido);
-# códigos em html para preenchimento de dados pessoais.
+# 1. Códigos em javascript para rodar os itens experimentais;
+# 2. Códigos em html para apresentação do tcle (termo de consentimento livre e esclarecido);
+# 3. Códigos em html para preenchimento de dados pessoais.
