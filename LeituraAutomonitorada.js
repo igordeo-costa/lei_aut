@@ -16,7 +16,7 @@ var defaults = [
         mode: "self-paced reading"
     },
 
-# Comando para parte repetitiva das questões a ser aplicada em todos os trials:
+	// Comando para parte repetitiva das questões a ser aplicada em todos os trials:
     "Question", {
         as:["Apenas um(a)", "Vários(as)", "Nenhum(a)"],
         randomOrder: true,
