@@ -1,0 +1,119 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title></title>
+        <style>
+            body {
+                background-color: white;
+                color: black;
+                font: normal 20pt Helvetica;
+            }
+            th {
+                background-color: #4CAF50;
+                color: white;
+                width: 20em;
+                font: normal 20pt Helvetica;
+            }
+            tr:nth-child(odd) {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+       <table>
+           <tbody>
+               <tr>
+                   <th colspan="2">
+                       <center>
+                           DADOS PESSOAIS
+                           <br>Seus dados n&atilde;o ser&atilde;o divulgados.
+                        </center>
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="1" align="center">Nome (ou iniciais):</td>
+                    <td colspan="1"><textarea class="obligatory" cols="40" name="nome" rows="2"></textarea></td></tr>
+                <tr>
+                    <td colspan="1" align="center">G&ecirc;nero:</td>
+                    <td>
+                        <input id="female" class="obligatory" name="genero" type="radio" value="female" />
+                            <label for="female">Feminino</label>
+                    <br />
+                        <input id="male" name="genero" type="radio" value="male" />
+                            <label for="male">Masculino</label>
+                    <br />
+                        <input id="outro" name="genero" type="radio" value="outro" />
+                            <label for="nb">Outro</label>
+                    <br />
+                        <input id="semresp" name="genero" type="radio" value="semresp" />
+                            <label for="nb">Prefiro n&atilde;o responder</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" align="center">Idade: <br /> <em>(Apenas n&uacute;meros)</em></td>
+                    <td colspan="1"><textarea class="obligatory" cols="5" name="idade" rows="2"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="1" align="center">Escolaridade:</td>
+                    <td>
+                        <input id="a" class="obligatory" name="escolaridade" type="radio" value="FI" />
+                            <label for="FI">Ensino Fundamental Incompleto</label>
+                    <br />
+                        <input id="b" name="escolaridade" type="radio" value="FC" />
+                            <label for="FC">Ensino Fundamental Completo</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="MI" />
+                            <label for="MI">Ensino M&eacute;dio Incompleto</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="MC" />
+                            <label for="MC">Ensino M&eacute;dio Completo</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="SI" />
+                            <label for="SI">Ensino Superior Incompleto</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="SC" />
+                            <label for="SC">Ensino Superior Completo</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="EI" />
+                            <label for="EI">Especializa&ccedil;&atilde;o Incompleto</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="EC" />
+                            <label for="EC">Especializa&ccedil;&atilde;o Completo</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="MesI" />
+                            <label for="MesI">Mestrado Incompleto</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="MesC" />
+                            <label for="MesC">Mestrado Completo</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="DI" />
+                            <label for="DI">Doutorado Incompleto</label>
+                    <br />
+                        <input id="c" name="escolaridade" type="radio" value="DC" />
+                            <label for="DC">Doutorado Completo</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" align="center">Voc&ecirc; &eacute; falante nativo de <br> portugu&ecirc;s brasileiro:</td>
+                    <td>
+                        <input id="sim" class="obligatory" name="idioma" type="radio" value="sim" />
+                            <label for="female">Sim</label>
+                    <br />
+                        <input id="nao" name="idioma" type="radio" value="nao" />
+                            <label for="nao">N&atilde;o</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" align="center">
+                        Deixe seu e-mail para receber
+                        <br>
+                        uma c&oacute;pia do TCLE.
+                    </td>
+                    <td colspan="1"><textarea cols="40" name="contato" rows="2"></textarea></td>
+                </tr>
+            </tbody>
+        </table> 
+    </body>
+</html>
