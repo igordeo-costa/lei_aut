@@ -6,5 +6,3 @@ Há um código em javascript (<em>LeituraAutomonitorada.js</em>) que define os i
 
 ## Códigos em html
 Há dois códigos em html (<em>tcle_modelo.html</em> e <em>Dados_Pessoais.html</em>) que definem, respectivamente, a apresentação do tcle (termo de consentimento livre e esclarecido) e o preenchimento de dados pessoais. Ambos os códigos foram reformulações do código disponibilizados pela professora <a href="https://github.com/mahayanag/arquivosIbexFarm.git">Mahayana Godoy</a>. Esses códigos serão colocados no setor denominado "chunks" no ibex farm e linkados no javascrip como formulários ("Form").
-
-# Changing something here!
